@@ -1,0 +1,59 @@
+/* CSS settings */
+/* 
+    CSS Rules 
+    h1 = element selector, .Name = Class selector, #Name = ID Selector
+    {} = declaration block
+    property: value;
+*/
+/* CSS Global Variables */
+:root{
+    --primaryColor: red;
+    --cl-seconday: blue;
+    --backgroundColor: lightblue;
+    --mainTransition: all 1s linear;
+    --mainSpacing: 5px;
+} 
+/* Universal Selector * {} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Element Selectors body {} */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--backgroundColor);
+}
+img {
+    width: 100%;
+    display: block;
+    height: 400px;
+    object-fit: cover;
+}
+/* Class Selectors .ClassName {} For Groups of Elements */
+.container {
+    border: 5px solid var(--primaryColor);
+}
+.box {
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: #f3f3f3;
+}
+.box-1 {
+    background-color: maroon;
+}
+.box-2 {
+    background-color: yellow;
+}
+.box-3 {
+    background-color: orange;
+}
+.box-4 {
+    background-color: blue;
+}
+.box-5 {
+    background-color: green;
+}
+/* ID Selectors #IDName {} For Unique Element Selection */
+/* Media Querries */
